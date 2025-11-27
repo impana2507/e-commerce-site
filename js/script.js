@@ -203,7 +203,7 @@ function handleSignup(event) {
 
 function handleContact(event) {
     event.preventDefault();
-    alert('Message sent! (This is a static site, no backend.)');
+    window.location.href = 'index.html';
 }
 
 // Checkout function
